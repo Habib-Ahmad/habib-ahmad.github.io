@@ -1,0 +1,4 @@
+echo > .nojekyll
+git add .nojekyll
+git commit -m "Disable Jekyll so /_next assets are served"
+git push
